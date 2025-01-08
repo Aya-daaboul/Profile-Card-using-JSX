@@ -1,19 +1,24 @@
-.Card{
+.CardContainer{
     display:inline;
     border: 2px solid hsl(0, 0%, 70%);
     padding:10px;
     margin-right:10px;
     text-align:center;
-    max-width:250px;
-    box-shadow: 5px 5px 5px rgba(112, 0, 0, 0.748);
+    box-shadow: 5px 5px rgba(112, 0, 0, 0.748);
+    width:400px;
+    height:auto;
 }
 .username{
     font-family:Verdana, sans-serif;
     color:hsl(12, 100%, 17%);
+    margin-bottom:10px;
 }
 .roundpics{
+    margin-top:10px;
     border-radius:50%;
+    margin-bottom:10px;
 }
 .card_desc{
+
     color:hsla(0, 100%, 18%, 0.777);
 }
